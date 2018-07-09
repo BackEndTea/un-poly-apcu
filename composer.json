@@ -1,0 +1,20 @@
+{
+    "name": "backendtea/un-poly-apcu",
+    "description": "Removes the symfony/polyfill-apcu polyfill from your project",
+    "keywords": [
+        "polyfill",
+        "apcu",
+        "removal"
+    ],
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gert de Pagter",
+            "email": "BackEndTea@gmail.com"
+        }
+    ],
+    "replace": {
+        "symfony/polyfill-apcu": "*"
+    }
+}
